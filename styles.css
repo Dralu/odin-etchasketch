@@ -1,3 +1,7 @@
+*{
+    background : gray;
+}
+
 div{
     border : 1px solid black;
 }
@@ -5,18 +9,18 @@ div{
     display:flex;
     flex: 1 1;
     align-items: stretch;
-    flex-direction: column;
 }
 #box{
     flex: 1 1;
+    width: 50px;
     min-height: 50px;
-}
-
-#container{
-    display: flex;
-    flex : auto;
 }
 
 .hovered{
     background:black;
+}
+
+button{
+    display : flex;
+    align-items:  center;
 }
